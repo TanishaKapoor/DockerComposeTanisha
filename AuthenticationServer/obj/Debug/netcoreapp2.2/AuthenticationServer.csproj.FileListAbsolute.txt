@@ -1,0 +1,14 @@
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\obj\Debug\netcoreapp2.2\AuthenticationServer.csproj.CoreCompileInputs.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\obj\Debug\netcoreapp2.2\AuthenticationServer.AssemblyInfoInputs.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\obj\Debug\netcoreapp2.2\AuthenticationServer.AssemblyInfo.cs
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\bin\Debug\netcoreapp2.2\AuthenticationServer.deps.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\bin\Debug\netcoreapp2.2\AuthenticationServer.runtimeconfig.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\bin\Debug\netcoreapp2.2\AuthenticationServer.runtimeconfig.dev.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\bin\Debug\netcoreapp2.2\AuthenticationServer.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\bin\Debug\netcoreapp2.2\AuthenticationServer.pdb
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\obj\Debug\netcoreapp2.2\AuthenticationServer.csprojAssemblyReference.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\obj\Debug\netcoreapp2.2\AuthenticationServer.RazorAssemblyInfo.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\obj\Debug\netcoreapp2.2\AuthenticationServer.RazorAssemblyInfo.cs
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\obj\Debug\netcoreapp2.2\AuthenticationServer.RazorTargetAssemblyInfo.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\obj\Debug\netcoreapp2.2\AuthenticationServer.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer\obj\Debug\netcoreapp2.2\AuthenticationServer.pdb

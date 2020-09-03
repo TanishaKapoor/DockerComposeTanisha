@@ -1,0 +1,14 @@
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\obj\Debug\netcoreapp2.2\UserService.csproj.CoreCompileInputs.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\obj\Debug\netcoreapp2.2\UserService.AssemblyInfoInputs.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\obj\Debug\netcoreapp2.2\UserService.AssemblyInfo.cs
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\bin\Debug\netcoreapp2.2\UserService.deps.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\bin\Debug\netcoreapp2.2\UserService.runtimeconfig.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\bin\Debug\netcoreapp2.2\UserService.runtimeconfig.dev.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\bin\Debug\netcoreapp2.2\UserService.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\bin\Debug\netcoreapp2.2\UserService.pdb
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\obj\Debug\netcoreapp2.2\UserService.csprojAssemblyReference.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\obj\Debug\netcoreapp2.2\UserService.RazorAssemblyInfo.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\obj\Debug\netcoreapp2.2\UserService.RazorAssemblyInfo.cs
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\obj\Debug\netcoreapp2.2\UserService.RazorTargetAssemblyInfo.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\obj\Debug\netcoreapp2.2\UserService.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\UserService\obj\Debug\netcoreapp2.2\UserService.pdb

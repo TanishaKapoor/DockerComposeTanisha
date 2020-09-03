@@ -1,0 +1,14 @@
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\obj\Debug\netcoreapp2.2\AggregatorService.csproj.CoreCompileInputs.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\obj\Debug\netcoreapp2.2\AggregatorService.AssemblyInfoInputs.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\obj\Debug\netcoreapp2.2\AggregatorService.AssemblyInfo.cs
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\bin\Debug\netcoreapp2.2\AggregatorService.deps.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\bin\Debug\netcoreapp2.2\AggregatorService.runtimeconfig.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\bin\Debug\netcoreapp2.2\AggregatorService.runtimeconfig.dev.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\bin\Debug\netcoreapp2.2\AggregatorService.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\obj\Debug\netcoreapp2.2\AggregatorService.RazorAssemblyInfo.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\obj\Debug\netcoreapp2.2\AggregatorService.RazorAssemblyInfo.cs
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\obj\Debug\netcoreapp2.2\AggregatorService.RazorTargetAssemblyInfo.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\bin\Debug\netcoreapp2.2\AggregatorService.pdb
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\obj\Debug\netcoreapp2.2\AggregatorService.csprojAssemblyReference.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\obj\Debug\netcoreapp2.2\AggregatorService.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\AggregatorService\obj\Debug\netcoreapp2.2\AggregatorService.pdb

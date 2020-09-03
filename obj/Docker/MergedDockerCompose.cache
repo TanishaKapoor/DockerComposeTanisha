@@ -1,0 +1,70 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  apple:
+    build:
+      context: C:\Users\tanishakapoor\source\repos\DockerComposePractice
+      dockerfile: Apple/Dockerfile
+    depends_on:
+    - eurekaserver
+    - rabbitmqserver
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apple
+    ports:
+    - published: 60662
+      target: 80
+  authenticationserver:
+    build:
+      context: C:\Users\tanishakapoor\source\repos\DockerComposePractice
+      dockerfile: AuthenticationServer/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: authenticationserver
+    ports:
+    - target: 80
+  banana:
+    build:
+      context: C:\Users\tanishakapoor\source\repos\DockerComposePractice
+      dockerfile: Banana/Dockerfile
+    depends_on:
+    - eurekaserver
+    - rabbitmqserver
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: banana
+    ports:
+    - published: 52277
+      target: 80
+  eurekaserver:
+    container_name: eureka
+    expose:
+    - '8761'
+    image: steeltoeoss/eureka-server:latest
+    ports:
+    - published: 8761
+      target: 8761
+  fruits:
+    build:
+      context: C:\Users\tanishakapoor\source\repos\DockerComposePractice
+      dockerfile: Fruits/Dockerfile
+    depends_on:
+    - eurekaserver
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: fruits
+    ports:
+    - published: 58526
+      target: 80
+  rabbitmqserver:
+    container_name: rabbitmq
+    expose:
+    - '5672'
+    hostname: rabbitmq
+    image: rabbitmq:3-management
+    ports:
+    - published: 5672
+      target: 5672
+version: '3.4'

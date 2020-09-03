@@ -1,0 +1,69 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/apple/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/apple/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      //"ServiceName": "Apple"
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "apple",
+          "Port": "80"
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/apple",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/apple",
+      "UpstreamHttpMethod": [ "Get" ],
+      //"ServiceName": "Apple"
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "apple",
+          "Port": "80"
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/banana/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/banana/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      //"ServiceName": "Banana"
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "banana",
+          "Port": "80"
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/banana",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/banana",
+      "UpstreamHttpMethod": [ "Get" ],
+      //"ServiceName": "Banana"
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "banana",
+          "Port": "80"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    //"RequestIdKey": "OcRequestId",
+    //"AdministrationPath": "/administration",
+    //"UseServiceDiscovery": true,
+    //"ServiceDiscoveryProvider": {
+    //  "Type": "Eureka",
+    //  "Host": "localhost",
+    //  "Port": "8761"
+    //}
+
+
+  }
+
+}

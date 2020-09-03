@@ -1,0 +1,14 @@
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\obj\Debug\netcoreapp2.2\OrderService.csproj.CoreCompileInputs.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\obj\Debug\netcoreapp2.2\OrderService.AssemblyInfoInputs.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\obj\Debug\netcoreapp2.2\OrderService.AssemblyInfo.cs
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\bin\Debug\netcoreapp2.2\OrderService.deps.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\bin\Debug\netcoreapp2.2\OrderService.runtimeconfig.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\bin\Debug\netcoreapp2.2\OrderService.runtimeconfig.dev.json
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\bin\Debug\netcoreapp2.2\OrderService.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\bin\Debug\netcoreapp2.2\OrderService.pdb
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\obj\Debug\netcoreapp2.2\OrderService.csprojAssemblyReference.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\obj\Debug\netcoreapp2.2\OrderService.RazorAssemblyInfo.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\obj\Debug\netcoreapp2.2\OrderService.RazorAssemblyInfo.cs
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\obj\Debug\netcoreapp2.2\OrderService.RazorTargetAssemblyInfo.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\obj\Debug\netcoreapp2.2\OrderService.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\OrderService\obj\Debug\netcoreapp2.2\OrderService.pdb

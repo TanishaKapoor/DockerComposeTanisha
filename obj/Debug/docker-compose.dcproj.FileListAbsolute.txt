@@ -1,0 +1,14 @@
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\Apple.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\Banana.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\Fruits.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\AppleBananaCommon.exe
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\Apple.pdb
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\Banana.pdb
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\Fruits.pdb
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\AppleBananaCommon.pdb
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\AppleBananaCommon.exe.config
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\AuthenticationServer.dll
+C:\Users\tanishakapoor\source\repos\DockerComposePractice\bin\Debug\AuthenticationServer.pdb

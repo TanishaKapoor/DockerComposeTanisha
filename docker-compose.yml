@@ -1,0 +1,55 @@
+version: '3.4'
+
+services:
+  apple:
+    image: ${DOCKER_REGISTRY-}apple
+    build:
+      context: .
+      dockerfile: Apple/Dockerfile
+    depends_on:
+      - eurekaserver
+      - rabbitmqserver
+
+  banana:
+    image: ${DOCKER_REGISTRY-}banana
+    build:
+      context: .
+      dockerfile: Banana/Dockerfile
+    depends_on:
+      - eurekaserver
+      - rabbitmqserver
+
+  fruits:
+    image: ${DOCKER_REGISTRY-}fruits
+    build:
+      context: .
+      dockerfile: Fruits/Dockerfile
+    depends_on:
+      - eurekaserver
+
+  authenticationserver:
+    image: ${DOCKER_REGISTRY-}authenticationserver
+    build:
+      context: .
+      dockerfile: AuthenticationServer/Dockerfile
+     
+
+  eurekaserver:
+    image: steeltoeoss/eureka-server:latest
+    expose:
+     - "8761"
+    ports: 
+     - "8761:8761"
+    container_name: eureka
+
+  rabbitmqserver:
+    image: rabbitmq:3-management
+    expose:
+     - "5672"
+    ports:
+     - "5672:5672"
+    hostname: rabbitmq
+    container_name: rabbitmq
+
+
+

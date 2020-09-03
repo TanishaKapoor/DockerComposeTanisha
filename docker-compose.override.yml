@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  apple:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "60662:80"
+
+  banana:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "52277:80"
+
+  fruits:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "58526:80"
+
+  authenticationserver:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+networks:
+   default:
+      external:
+         name:  nat
+

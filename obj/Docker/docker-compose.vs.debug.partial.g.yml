@@ -1,0 +1,77 @@
+version: '3.4'
+
+services:
+  apple:
+    image: apple:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_apple$
+    volumes:
+      - C:\Users\tanishakapoor\source\repos\DockerComposePractice\Apple:/app
+      - C:\Users\tanishakapoor\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_apple$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_apple$ bin/Debug/netcoreapp2.2/Apple.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+  authenticationserver:
+    image: authenticationserver:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_authenticationserver$
+    volumes:
+      - C:\Users\tanishakapoor\source\repos\DockerComposePractice\AuthenticationServer:/app
+      - C:\Users\tanishakapoor\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_authenticationserver$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_authenticationserver$ bin/Debug/netcoreapp2.2/AuthenticationServer.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+
+  banana:
+    image: banana:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_banana$
+    volumes:
+      - C:\Users\tanishakapoor\source\repos\DockerComposePractice\Banana:/app
+      - C:\Users\tanishakapoor\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_banana$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_banana$ bin/Debug/netcoreapp2.2/Banana.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+
+  fruits:
+    image: fruits:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_fruits$
+    volumes:
+      - C:\Users\tanishakapoor\source\repos\DockerComposePractice\Fruits:/app
+      - C:\Users\tanishakapoor\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_fruits$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_fruits$ bin/Debug/netcoreapp2.2/Fruits.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
